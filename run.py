@@ -2,7 +2,6 @@ from preprocessing import read_data, preprocess_data, TextClassificationDataset,
 from model import TextClassifier
 from train import train
 
-
 def main():
     # Define constants
     TRAIN_FILE = "train.tsv"
